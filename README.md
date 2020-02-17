@@ -1,7 +1,7 @@
 # CSVParser
 Simple C++ CSV Parser
 
-##Usage: 
+## Usage: 
 Single Header: #include "csv.hpp"
 
 CSV is a struct containing a std::list of Line structs. Line contains a std::vector of strings.
@@ -12,7 +12,7 @@ Methods:
 
 If your CSV file uses quotation marks, you must set usesQuotes to true or it will not read properly.
 
-###Example:
+### Example:
 ```c
 #include "csv.hpp"
 #include <iostream>
